@@ -1,25 +1,3 @@
-We have two contracts
-
-
-1. NFT.sol
-
--> this inherits ERC721, ERC721URIStorage (for IPFS) and Counters library
-from openzeppelin
-->it contains the functionality to mint tokens in the contract and also give
-our marketplace contract the approval to transfer these tokens from NFt contract
-to the marketplace
-
-
-2. KBMark.sol
-
--> this inherits ERC721, ERC721URIStorage (for IPFS) and Counters library
-from openzeppelin
--> it contains the functionality to get the listing price
--> it contains a functionality to create a token and map it to a item id and
-also transfer the created token belonging to a tokenId from NFT contract to this marketplace
-->it contains the functionality to sell the tokens belonging to a tokenId stored in the marketplace to a user
-and change the owner of the token
-->it contains the functionality to get the unsold tokens in the marketplace
-->it contains the functionality to get the tokens owned by a user
--> it contains the functionality to get the tokens created by a seller
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b6edc820613c4a310671a69a54c46ac8afbf66d6acd6ccf79fdc1e9d09f7dd3
+size 1027
